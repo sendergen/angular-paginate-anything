@@ -18,8 +18,8 @@
 
     <li ng-class="{disabled: page >= numPages - 1}"><a href ng-click="gotoPage(page+1)">&raquo;</a></li>
   </ul>
-  <div class="per-page" ng-if="perPagePresets.length > 0 && numPages > 1">
-    <select ng-model="$parent.perPage"
+  <div class="per-page {{perPageClass}}" ng-if="perPagePresets.length > 0 && numPages > 1">
+    <select class="{{selectClass}}" ng-model="$parent.perPage"
             ng-options="p for p in perPagePresets">
     </select>
     per page

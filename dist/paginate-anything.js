@@ -71,6 +71,8 @@
           linkGroupSize: '=?',
           reloadPage: '=?',
           size: '=?',
+          selectClass: '=?',
+          perPageClass: '=?',
           passive: '@',
           transformResponse: '=?',
           method: '@',
