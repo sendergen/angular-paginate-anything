@@ -71,6 +71,7 @@
           linkGroupSize: '=?',
           reloadPage: '=?',
           size: '=?',
+          paginationClass: '=?',
           selectClass: '=?',
           perPageClass: '=?',
           passive: '@',
